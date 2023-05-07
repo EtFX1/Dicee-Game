@@ -8,8 +8,8 @@ var h1_element  = document.querySelector("h1"); //*h1 tag
 
 
 // ?changes the images to any of the 6 images in the images folders, selected using the "random_number" variable 
-player_1_dice_roll = image1.setAttribute("src", `images/dice${random_number_1}.png`);
-player_2_dice_roll = image2.setAttribute("src", `images/dice${random_number_2}.png`);
+player_1_dice_roll = image1.setAttribute("src", `dice${random_number_1}.png`);
+player_2_dice_roll = image2.setAttribute("src", `dice${random_number_2}.png`);
 
 
 // ?conditions to check for winner by checking for the higher "random_number"
